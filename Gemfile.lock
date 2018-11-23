@@ -2,6 +2,7 @@ PATH
   remote: .
   specs:
     force_ruby_platform_test (0.1.0)
+      rouge
 
 GEM
   remote: https://rubygems.org/
@@ -14,7 +15,6 @@ PLATFORMS
 DEPENDENCIES
   bundler (>= 1)
   force_ruby_platform_test!
-  rouge
 
 BUNDLED WITH
    1.17.1
