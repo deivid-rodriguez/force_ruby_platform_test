@@ -1,11 +1,13 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    rouge (3.3.0)
 
 PATH
   remote: .
   specs:
     force_ruby_platform_test (0.1.0)
+      rouge
 
 PLATFORMS
   ruby
