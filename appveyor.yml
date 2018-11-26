@@ -23,7 +23,7 @@ build_script:
 
 test_script:
   - ruby bundler/bin/bundle config
-  - ruby bundler/bin/bundle exec ruby -rrouge -e "puts 'OK'"
+  - ruby -Ibundler/lib -rbundler/setup -rrouge -e "puts 'OK'"
 
 environment:
   matrix:
